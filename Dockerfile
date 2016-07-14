@@ -11,6 +11,10 @@ MAINTAINER Jan Grewe <jan@faked.org>
 ENV VERSION_SDK_TOOLS "25.1.7"
 ENV VERSION_BUILD_TOOLS "24.0.0"
 ENV VERSION_TARGET_SDK "24"
+ENV VERSION_TARGET_SDK "23"
+ENV VERSION_TARGET_SDK "22"
+ENV VERSION_TARGET_SDK "21"
+ENV VERSION_TARGET_SDK "15"
 
 ENV SDK_PACKAGES "build-tools-${VERSION_BUILD_TOOLS},android-${VERSION_TARGET_SDK},addon-google_apis-google-${VERSION_TARGET_SDK},platform-tools,extra-android-m2repository,extra-android-support,extra-google-google_play_services,extra-google-m2repository"
 
